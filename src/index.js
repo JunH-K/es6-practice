@@ -1,3 +1,5 @@
-import { increment } from './practices/promise';
-import print from './print';
-import fetchData from './practices/fetch';
+import runFetch from './practices/fetch';
+import runPromise from './practices/promise';
+
+runPromise();
+runFetch();
